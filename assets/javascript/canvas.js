@@ -5,38 +5,12 @@ canvas.height = window.innerHeight;
 
 let c = canvas.getContext('2d');
 
-/* c.fillStyle = "red";
-c.fillRect(100, 100, 100, 100);
-c.fillRect(400, 100, 100, 100);
-c.fillRect(300, 300, 100, 100);
- */
-//lines
-
-/* c.beginPath();
-c.moveTo(50, 300);
-c.lineTo(300, 100);
-c.lineTo(400, 300);
-c.strokeStyle = 'pink';
-c.stroke(); */
-
-//arc or circle
-/* c.beginPath();
-c.arc(300, 300, 30, 0, Math.PI * 2, false);
-c.strokeStyle = "blue";
-c.stroke(); */
-
-/* let x = Math.random() * innerWidth;
-let y = Math.random() * innerHeight;
-let dx = 4;
-let dy = 4;
-let radius = 30; */
-
 let mouse = {
     x: undefined,
     y: undefined
 }
 
-const maxRadius = 40;
+const maxRadius = 30;
 //const minRadius = 2;
 
 const colorArray = [
