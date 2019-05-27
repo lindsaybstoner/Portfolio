@@ -37,7 +37,7 @@ li {
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 40px;
   padding-bottom: 10px;
 }
 
@@ -55,9 +55,14 @@ video{
 }
 
 img {
-  width: 400px;
+  width: 340px;
+  padding: 5px 0px 10px 0px;
 }
 
 .information {
-  padding: 30px;
+  padding: 25px 10px 15px 7px;
+}
+
+.grid-item {
+  margin-bottom: 5px;
 }
