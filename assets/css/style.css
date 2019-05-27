@@ -47,11 +47,12 @@ h2 {
 
 p {
   font-size: 20px;
-  padding: 10px 0px;
+  padding: 10px 65px 10px 0px;
 }
 
 video{
-  width: 400px;
+  width: 340px;
+  padding: 5px 0px 15px 0px;
 }
 
 img {
@@ -61,6 +62,10 @@ img {
 
 .information {
   padding: 25px 10px 15px 7px;
+}
+
+.grid {
+  padding-top: 10px;
 }
 
 .grid-item {
