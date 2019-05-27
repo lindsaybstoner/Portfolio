@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 p {
@@ -65,7 +65,7 @@ img {
 }
 
 .grid {
-  padding-top: 10px;
+  padding: 10px 0px 10px 0px;
 }
 
 .grid-item {
