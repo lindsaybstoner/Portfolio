@@ -10,6 +10,8 @@ body {
 nav {
   font-size: 30px;
   padding: 20px;
+  position: fixed;
+  z-index: 99;
 }
 
 a:link {
@@ -62,7 +64,8 @@ img {
 }
 
 .information {
-  padding: 25px 10px 15px 7px;
+  padding: 25px 10px 15px 140px;
+  display: block;
 }
 
 .grid {
