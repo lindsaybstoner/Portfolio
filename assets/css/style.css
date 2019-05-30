@@ -140,3 +140,8 @@ img {
   text-decoration: underline;
   color: white;
 }
+
+.change-pad {
+  padding: 5px 0px 0px 0px;
+  font-size: 18px;
+}
