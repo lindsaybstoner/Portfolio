@@ -8,11 +8,11 @@ img {
 
 @media only screen and (max-width: 425px) {
     img {
-        width: 300px;
+        width: 250px;
       }
     
     .project-info {
-        width: 300px;
+        width: 250px;
     }
 
   };
