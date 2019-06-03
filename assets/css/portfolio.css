@@ -30,9 +30,12 @@ img {
     }
 };
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width 520px) and (max-width 612px) {
     img {
         width: 300px;
+    }
+    .container {
+        width: 60%;
     }
 };
 
