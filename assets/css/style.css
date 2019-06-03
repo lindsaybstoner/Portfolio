@@ -92,38 +92,6 @@ i {
   width: 40%;
 }
 
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.changeColor:link {
-  text-decoration: none;
-  color: white;
-}
-
-.changeColor:visited {
-  text-decoration: none;
-  color: white;
-}
-  
-.changeColor:hover {
-  text-decoration: underline;
-  color: white;
-}
-  
-.changeColor:active {
-  text-decoration: underline;
-  color: white;
-}
-
 .change-pad {
   padding: 5px 0px 0px 0px;
 }
@@ -150,8 +118,30 @@ i {
   width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
-  
+@media only screen and (max-width: 425px) {
+  nav {
+    padding: 10px 10px 10px 15px;
+    font-size: 20px;
+  }
+  .information {
+    padding: 10px 0px 15px 100px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  .font-size {
+    font-size: 15px;
+  }
+  h2{
+    font-size: 25px;
+  }
+  p {
+    font-size: 12px;
+    padding: 10px 60px 20px 0px;
+  }
+  img {
+    width: 250px;
+  }
 };
 
 @media only screen and (min-width: 600px) {
