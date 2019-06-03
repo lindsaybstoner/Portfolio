@@ -21,20 +21,20 @@ img {
 
 };
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 426px) {
     .container {
-        width: 75%;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .container {
-        width: 75%;
+        width: 90%;
     }
 };
 
-@media only screen and (min-width: 880px) {
+@media only screen and (min-width: 879px) {
     .container {
         width: 40%;
     }
 };
+
+/* @media only screen and (min-width: 1250px) {
+    .container {
+        width: 40%;
+    }
+}; */
