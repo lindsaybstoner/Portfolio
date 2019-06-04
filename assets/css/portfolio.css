@@ -9,7 +9,7 @@ img {
 @media only screen and (max-width: 425px) {
     img {
         width: 250px;
-      }
+    }
     
     .project-info {
         width: 250px;
@@ -22,22 +22,24 @@ img {
 };
 
 @media only screen and (min-width: 426px) {
-    .container {
-        width: 90%;
-    }
-    img {
-        width: 250px;
-    }
-};
-
-@media only screen and (min-width: 520px) and (max-width: 612px) {
     img {
         width: 300px;
     }
+
+    .container {
+        width: 90%;
+    }
+};
+
+/* @media only screen and (min-width: 520px) and (max-width: 612px) {
+    img {
+        width: 300px;
+    }
+
     .container {
         width: 60%;
     }
-};
+}; */
 
 @media only screen and (min-width: 879px) {
     .container {
