@@ -155,12 +155,12 @@ i {
  nav ul {
   display: flex;
   justify-content: space-between;
-  margin: 10px;
+  margin: 15px;
  }
 
- nav ul li {
+ /* nav ul li {
    padding: 15px;
- }
+ } */
 
  .information {
    padding: 90px 20px 50px;
