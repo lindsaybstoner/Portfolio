@@ -3,9 +3,9 @@ body {
   margin: 0px;
   display: flex;
   letter-spacing: 1.5px;
-  max-width: 1250px;
+  max-width: 950px;
   margin: auto;
-  margin-top: 10px;
+  line-height: 1.5em;
 }
 
 nav {
@@ -36,7 +36,7 @@ a:active {
 }
 
 li {
-  padding: 10px 0px;
+  padding: 12px 0px;
 }
 
 h1 {
@@ -63,7 +63,7 @@ p {
 }
 
 img {
-  width: 350px;
+  width: 325px;
 }
 
 i {
@@ -75,7 +75,7 @@ i {
 }
 
 .information {
-  padding: 25px 0px 15px 160px;
+  padding: 40px 30px 15px 160px;
   display: block;
 }
 
@@ -84,13 +84,13 @@ i {
 }
 
 .grid-item {
-  margin-bottom: 5px;
+  margin-bottom: 40px;
 }
 
-.container {
+/* .container {
   position: relative;
   width: 40%;
-}
+} */
 
 .change-pad {
   padding: 5px 0px 0px 0px;
@@ -118,7 +118,7 @@ i {
   width: 100%;
 } */
 
-@media only screen and (max-width: 425px) {
+/* @media only screen and (max-width: 425px) {
   nav {
     padding: 10px 10px 10px 15px;
     font-size: 20px;
@@ -142,21 +142,70 @@ i {
   img {
     width: 250px;
   }
+}; */
+
+@media only screen and (max-width: 500px) {
+ nav {
+  width: 100%;
+  padding: 0px;
+  background: white;
+  font-size: 24px;
+  /* box-shadow: 0px 1px 3px grey; */
+ }
+ nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+ }
+
+ nav ul li {
+   padding: 15px;
+ }
+
+ .information {
+   padding: 90px 20px 50px;
+   margin: 0px 10px;
+ }
+
+ p {
+  padding: 10px 0px 20px 0px;
+ }
+
+ img {
+   width: 275px;
+ }
+
+ i {
+   padding: 2px;
+ }
+
+ .container {
+    width: 100%;
+ }
+
+ .grid-item {
+  margin-bottom: 40px;
+}
 };
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 768px) {
+  .information {
+    padding: 40px 0px 15px 160px;
+    display: block;
+    
+  }
+
+  .container {
+    max-width: 60%;
+ }
+
+};
+
+@media only screen and (max-width: 992px) {
   
 };
 
-@media only screen and (min-width: 768px) {
-  
-};
-
-@media only screen and (min-width: 992px) {
-  
-};
-
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   nav {
     padding: 30px 30px 30px 0px;
   };
