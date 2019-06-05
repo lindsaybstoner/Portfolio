@@ -1,100 +1,48 @@
-@media only screen and (max-width: 500px) {
-    img {
-        width: 250px;
-      }
-    
-    .grid-item {
-     margin-bottom: 40px;
-   }
-
-   .container {
-    width: 250px;
-    }
-};
-
-@media only screen and (max-width: 769px) {
-    .grid-item {
-     margin-bottom: 40px;
-   }
-
-   
-};
-
-/* img {
-    width: 450px;
-  }
+img {
+    width: 320px;
+}
 
 .grid-item {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
- */
-/* @media only screen and (max-width: 425px) {
+
+@media only screen and (max-width: 480px) {
+    nav {
+     width: 100%;
+     padding: 0px;
+     background: white;
+     font-size: 24px;
+     /* box-shadow: 0px 1px 3px grey; */
+    }
+
+    nav ul {
+     display: flex;
+     justify-content: space-between;
+     margin: 15px;
+    }
+  
+    .information {
+      padding: 90px 20px 50px;
+      margin: 0px 10px;
+    }
+   
+    p {
+     padding: 10px 0px 20px 0px;
+    }
+   
     img {
-        width: 250px;
+      width: 265px;
     }
-    
-    .project-info {
-        width: 250px;
+   
+    i {
+      padding: 2px;
     }
-
+   
     .container {
-        width: 90%;
+       width: 100%;
     }
-
+   
+    .grid-item {
+     margin-bottom: 40px;
+   }
 };
-
-@media only screen and (min-width: 426px) {
-    img {
-        width: 250px;
-    }
-
-    .project-info {
-        width: 250px;
-    }
-
-    .container {
-        width: 90%;
-    }
-};
-
-@media only screen and (min-width: 500px) {
-    img {
-        width: 300px;
-    }
-
-    .project-info {
-        width: 300px;
-    }
-
-    .container {
-        width: 90%;
-    }
-};
-
-/* @media only screen and (min-width: 520px) and (max-width: 612px) {
-    img {
-        width: 300px;
-    }
-
-    .container {
-        width: 60%;
-    }
-}; */
-
-/* @media only screen and (min-width: 879px) {
-    .container {
-        width: 75%;
-    }
-};
-
-@media only screen and (min-width: 879px) {
-    .container {
-        width: 40%;
-    }
-}; */
-
-/* @media only screen and (min-width: 1250px) {
-    .container {
-        width: 40%;
-    }
-}; */

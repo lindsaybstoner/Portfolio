@@ -3,7 +3,7 @@ body {
   margin: 0px;
   display: flex;
   letter-spacing: 1.5px;
-  max-width: 950px;
+  max-width: 1200px;
   margin: auto;
   line-height: 1.5em;
 }
@@ -57,43 +57,22 @@ h3 {
 
 p {
   font-size: 15px;
-  padding: 10px 44px 20px 0px;
+  padding: 10px 20px 20px 0px;
   letter-spacing: 1.2px;
   font-family: 'Roboto', sans-serif;
 }
 
 img {
-  width: 325px;
+  width: 300px;
 }
 
 i {
   color: #2b2b2b;
 }
 
-#resume {
-  padding-left: 40px;
-}
-
 .information {
   padding: 40px 30px 15px 160px;
   display: block;
-}
-
-.grid {
-  padding: 10px 0px 0px 0px;
-}
-
-.grid-item {
-  margin-bottom: 40px;
-}
-
-/* .container {
-  position: relative;
-  width: 40%;
-} */
-
-.change-pad {
-  padding: 5px 0px 0px 0px;
 }
 
 .font-size {
@@ -114,99 +93,54 @@ i {
   font-size: 17px;
 }
 
-/* .full-width {
-  width: 100%;
-} */
-
-/* @media only screen and (max-width: 425px) {
-  nav {
-    padding: 10px 10px 10px 15px;
-    font-size: 20px;
-  }
-  .information {
-    padding: 10px 0px 15px 100px;
-  }
-  h1 {
-    font-size: 35px;
-  }
-  .font-size {
-    font-size: 15px;
-  }
-  h2{
-    font-size: 25px;
-  }
-  p {
-    font-size: 12px;
-    padding: 10px 60px 20px 0px;
-  }
-  img {
-    width: 250px;
-  }
-}; */
-
-@media only screen and (max-width: 500px) {
- nav {
-  width: 100%;
-  padding: 0px;
-  background: white;
-  font-size: 24px;
-  /* box-shadow: 0px 1px 3px grey; */
- }
- nav ul {
-  display: flex;
-  justify-content: space-between;
-  margin: 15px;
- }
-
- /* nav ul li {
-   padding: 15px;
- } */
-
- .information {
-   padding: 90px 20px 50px;
-   margin: 0px 10px;
- }
-
- p {
-  padding: 10px 0px 20px 0px;
- }
-
- img {
-   width: 275px;
- }
-
- i {
-   padding: 2px;
- }
-
- .container {
-    width: 100%;
- }
-
- .grid-item {
-  margin-bottom: 40px;
+.container {
+  width: 300px;
 }
+
+@media only screen and (max-width: 480px) {
+  nav {
+   width: 100%;
+   padding: 0px;
+   background: white;
+   font-size: 24px;
+   /* box-shadow: 0px 1px 3px grey; */
+  }
+
+  nav ul {
+   display: flex;
+   justify-content: space-between;
+   margin: 15px;
+  }
+
+  .information {
+    padding: 90px 20px 50px;
+    margin: 0px 10px;
+  }
+ 
+  p {
+   padding: 10px 0px 20px 0px;
+  }
+ 
+  img {
+    width: 265px;
+  }
+ 
+  i {
+    padding: 2px;
+  }
+ 
+  .container {
+     width: 100%;
+  }
+ 
+  .grid-item {
+   margin-bottom: 40px;
+ }
 };
 
 @media only screen and (max-width: 768px) {
-  .information {
-    padding: 40px 0px 15px 160px;
-    display: block;
-    
+  img {
+      width: 350px;
   }
 
-  .container {
-    max-width: 60%;
- }
-
 };
-
-@media only screen and (max-width: 992px) {
-  
-};
-
-@media only screen and (max-width: 1200px) {
-  nav {
-    padding: 30px 30px 30px 0px;
-  };
-}
