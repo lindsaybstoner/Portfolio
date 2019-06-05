@@ -120,6 +120,10 @@ i {
     padding: 90px 20px 50px;
     margin: 0px 10px;
   }
+
+  h1 {
+    padding: 20px 0px 10px;
+  }
  
   p {
    padding: 10px 0px 20px 0px;
