@@ -12,13 +12,13 @@ img {
      padding: 0px;
      background: white;
      font-size: 24px;
-     /* box-shadow: 0px 1px 3px grey; */
+     box-shadow: 0px 1px 3px grey;
     }
 
     nav ul {
      display: flex;
      justify-content: space-between;
-     margin: 15px;
+     margin: 10px 15px;
     }
   
     .information {
