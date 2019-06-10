@@ -115,6 +115,10 @@ i {
   font-size: 24px;
 }
 
+.space {
+  padding-right: 10px;
+}
+
 @media only screen and (max-width: 480px) {
   nav {
    width: 100%;
