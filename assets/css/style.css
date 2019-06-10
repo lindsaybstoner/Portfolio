@@ -90,15 +90,25 @@ i {
 }
 
 .project-info a {
-  font-size: 17px;
+  font-size: 20px;
+  float: right;
+  padding: 5px;
 }
 
 .container {
-  width: 300px;
+  width: 350px;
 }
 
 .grid-item {
   margin-bottom: 20px;
+}
+
+.change-pad {
+  padding: 0px;
+}
+
+.placeholder {
+  visibility: hidden;
 }
 
 @media only screen and (max-width: 480px) {
