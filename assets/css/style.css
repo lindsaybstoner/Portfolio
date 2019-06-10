@@ -90,7 +90,7 @@ i {
 }
 
 .project-info a {
-  font-size: 20px;
+  font-size: 22px;
   float: right;
   padding: 5px;
 }
@@ -109,6 +109,10 @@ i {
 
 .placeholder {
   visibility: hidden;
+}
+
+.github-link {
+  font-size: 24px;
 }
 
 @media only screen and (max-width: 480px) {
