@@ -32,6 +32,7 @@ h2 {
     .information {
       padding: 90px 20px 50px;
       margin: 0px 10px;
+      width: 100%;
     }
 
     h1 {
@@ -57,4 +58,15 @@ h2 {
     .grid-item {
      margin-bottom: 40px;
    }
+
+   .placeholder {
+    display: none;
+  }
 };
+
+
+@media only screen and (max-width: 769) {
+  .placeholder {
+    width: 1000px;
+  }
+}

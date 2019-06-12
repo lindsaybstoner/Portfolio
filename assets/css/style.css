@@ -111,9 +111,9 @@ i {
   padding: 10px 0px;
 }
 
-.placeholder {
+/* .placeholder {
   width: 1000px;
-}
+} */
 
 .github-link {
   font-size: 20px;
@@ -202,6 +202,7 @@ i {
   .information {
     padding: 90px 20px 50px;
     margin: 0px 10px;
+    width: 100%;
   }
 
   h1 {
@@ -227,4 +228,14 @@ i {
   .grid-item {
    margin-bottom: 40px;
  }
+
+ /* .placeholder {
+  display: none;
+  } */
 };
+
+/* @media only screen and (max-width: 769) {
+  .placeholder {
+    width: 1000px;
+  }
+} */
