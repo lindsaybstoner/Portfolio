@@ -8,11 +8,6 @@ img {
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
-.orientation-heading {
-  display: flex;
-  justify-content: space-between;
-}
-
 @media only screen and (max-width: 480px) {
     nav {
      width: 100%;
