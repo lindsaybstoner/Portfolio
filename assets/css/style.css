@@ -148,14 +148,23 @@ i {
   flex-wrap: wrap;
 } */
 
-/* .change-spacing {
-  display: flex;
-  flex-wrap: wrap;
-} */
-
-.change-orientation {
+.change-spacing-between {
   display: flex;
   justify-content: space-between;
+}
+
+.change-spacing-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.change-spacing-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.change-orientation {
+  display: inline-block;
 }
 
 @media only screen and (max-width: 480px) {
