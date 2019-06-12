@@ -166,7 +166,7 @@ i {
   justify-content: space-around;
 }
 
-.change-orientation-heading {
+.orientation-heading {
   display: flex;
   justify-content: space-between;
 }
