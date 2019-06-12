@@ -1,5 +1,5 @@
 img {
-    width: 400px;
+    width: 100%;
 }
 
 .grid-item {
@@ -38,7 +38,7 @@ img {
     }
    
     img {
-      width: 265px;
+      width: 100%;
     }
    
     i {
