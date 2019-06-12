@@ -203,6 +203,10 @@ i {
   h1 {
     padding: 20px 0px 10px;
   }
+
+  img {
+    width: 100%;
+  }
  
   p {
    padding: 10px 0px 20px 0px;
