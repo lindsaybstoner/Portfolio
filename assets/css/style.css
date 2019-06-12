@@ -50,8 +50,8 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
-  padding-bottom: 10px;
+  font-size: 18px;
+  padding: 30px 30px 10px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -96,7 +96,7 @@ i {
 }
 
 .container {
-  width: 350px;
+  width: 400px;
 }
 
 .grid-item {
@@ -104,7 +104,7 @@ i {
 }
 
 .change-pad {
-  padding: 0px;
+  padding: 10px 30px 30px;
 }
 
 .change-pad-tech {
@@ -136,7 +136,10 @@ i {
 }
 
 .make-bold {
-  font-weight: 1000;
+  font-weight: 600;
+  padding: 10px 30px 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 22px;
 }
 
 .change-li li {
@@ -163,8 +166,17 @@ i {
   justify-content: space-around;
 }
 
+.change-orientation-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
 .change-orientation {
   display: inline-block;
+}
+
+.pad-all-tech {
+  padding: 10px 30px;
 }
 
 @media only screen and (max-width: 480px) {
