@@ -48,7 +48,7 @@ li {
 }
 
 .information {
-  padding: 110px 20px 40px;
+  padding: 120px 20px 40px;
 }
 
 h1 {
@@ -287,7 +287,7 @@ i {
   } */
 
   .information {
-    padding: 110px 40px 40px;
+    padding: 120px 40px 40px;
 }
 
   /* .container {
@@ -308,7 +308,7 @@ i {
 
   .contact-info {
     justify-content: flex-end;
-    padding-bottom: 88px;
+    padding-bottom: 60px;
   }
 
   .contact-info a {
@@ -316,7 +316,7 @@ i {
   }
 
   .information {
-    padding: 110px 80px 40px;
+    padding: 120px 80px 40px;
 }
 }
 
