@@ -1,7 +1,8 @@
 body {
   font-family: 'Open Sans Condensed', sans-serif;
   letter-spacing: 1.5px;
-  max-width: 1200px;
+  max-width: 1000px;
+  margin: auto;
   line-height: 1.5em;
 }
 
@@ -13,11 +14,13 @@ nav {
   background: white;
   width: 100%;
   z-index: 100;
+  top: 0px;
+  left: 0px;
 }
 
 ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 a:link {
@@ -41,16 +44,24 @@ a:active {
 }
 
 li {
-  padding: 12px 0px;
+  padding: 20px 0px;
 }
 
 .information {
-  padding: 90px 20px 40px;
+  padding: 110px 20px 40px;
 }
 
 h1 {
   font-size: 42px;
   padding-top: 10px;
+  text-align: center;
+}
+
+.contact-info {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
 }
 
 h2 {
@@ -78,10 +89,15 @@ i {
   color: #2b2b2b;
 }
 
+/* .grid {
+  max-width: 800px;
+  margin: auto;
+} */
+
 .font-size {
   display: block;
   font-size: 20px;
-  padding: 30px 0px 15px;
+  padding: 30px 0px 24px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -100,6 +116,7 @@ i {
 
 .container {
   width: 100%;
+  max-width: 400px;
 }
 
 .grid-item {
@@ -122,9 +139,9 @@ i {
   font-size: 20px;
 }
 
-.space {
+/* .space {
   padding-right: 20px;
-}
+} */
 
 .move-contact {
   padding-top: 54px;
@@ -179,7 +196,7 @@ i {
 }
 
 .pad-all-tech {
-  padding: 10px 30px;
+  padding: 10px 20px;
 }
 
 .about-p {
@@ -242,3 +259,69 @@ i {
     width: 1000px;
   }
 } */
+
+@media only screen and (min-width: 375px) {
+  .itemSelector {
+    margin: auto;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 426px) {
+  /* h1 {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .font-size {
+    padding: 0px;
+  }
+
+  .contact-info {
+    justify-content: flex-end;
+  }
+
+  .contact-info a {
+    padding: 10px;
+  } */
+
+  .information {
+    padding: 110px 40px 40px;
+}
+
+  /* .container {
+    max-width: 300px;
+  } */
+}
+
+@media only screen and (min-width: 769px) {
+  h1 {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .font-size {
+    padding: 0px;
+  }
+
+  .contact-info {
+    justify-content: flex-end;
+    padding-bottom: 88px;
+  }
+
+  .contact-info a {
+    padding: 10px;
+  }
+
+  .information {
+    padding: 110px 80px 40px;
+}
+}
+
+@media only screen and (min-width: 1000px) {
+  .left-margin {
+    margin-left: 20px
+  }
+}
